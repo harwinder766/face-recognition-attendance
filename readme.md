@@ -61,7 +61,7 @@ Download the service account key file and name it credentials.json in the projec
 
 Share your target Google Sheet (named Face_Attendance) with the service account email found in credentials.json.
 
-##Setup Steps
+## Setup Steps
 Clone the repository:
 
 git clone [(https://github.com/harwinder766/face-recognition-attendance.git)]
