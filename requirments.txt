@@ -1,0 +1,23 @@
+Core Libraries
+opencv-python
+numpy
+scipy
+pickle
+
+Deep Learning / Face Analysis
+deepface
+tensorflow
+keras
+
+Vector Search
+faiss-cpu
+
+Database Connectors
+mysql-connector-python
+
+Google Sheets Integration
+gspread
+oauth2client
+
+MediaPipe for Liveness/Face Mesh
+mediapipe

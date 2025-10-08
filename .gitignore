@@ -1,0 +1,12 @@
+# Ignore Python virtual environment files
+.venv/
+venv/
+__pycache__/
+
+# Ignore local configuration files with secrets
+credentials.json
+*.env
+*.key
+
+# Ignore generated database files
+*.pkl
