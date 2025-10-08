@@ -61,27 +61,27 @@ Download the service account key file and name it credentials.json in the projec
 
 Share your target Google Sheet (named Face_Attendance) with the service account email found in credentials.json.
 
-Setup Steps
+##Setup Steps
 Clone the repository:
 
-git clone [your-repo-link]
-cd [repo-name]
+git clone [(https://github.com/harwinder766/face-recognition-attendance.git)]
+cd [face-recognition-attendance-system]
 
 Install dependencies:
 
 pip install -r requirements.txt
-# Note: If you have a specific GPU setup, use the appropriate deepface and tensorflow versions.
+Note: If you have a specific GPU setup, use the appropriate deepface and tensorflow versions.
 
 Configure Constants:
 Adjust database credentials and thresholds in the main script/notebook. Ensure you update the placeholder password:
 
-# Database Settings
+Database Settings
 DB_HOST = "localhost"
 DB_USER = "root"
 DB_PASSWORD = "YOUR_SECURE_PASSWORD" # <<< CHANGE THIS!
 DB_NAME = "attendance_db"
 
-# Thresholds
+Thresholds
 SIMILARITY_THRESHOLD = 0.63
 LIVENESS_BLINKS_REQUIRED = 2 
 ATTENDANCE_INTERVAL_HOURS = 1
@@ -90,7 +90,7 @@ Run the application:
 
 python notebook.ipynb # or main_script.py if you convert the notebook
 
-💡 How to Use
+##💡 How to Use
 The application starts in a main menu mode displayed on the webcam feed.
 
 Register a New User: Press n and follow the prompts to enter a name and section. The system will guide you through capturing 20 unique face images to build your profile.
