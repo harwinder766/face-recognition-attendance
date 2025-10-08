@@ -1,7 +1,7 @@
-🧑‍💻 Intelligent Face Recognition and Liveness-Based Attendance System
+## Intelligent Face Recognition and Liveness-Based Attendance System
 This project is a robust, multi-layer attendance solution built using Python and computer vision libraries. It provides accurate identity verification, ensures physical presence through liveness detection (blink/movement analysis), enforces health compliance (mask detection), and manages real-time attendance logging across multiple database backends (MySQL and Google Sheets).
 
-✨ Key Features
+# Key Features
 1. Multi-Layer Biometric Verification
 Face Recognition: Utilizes the DeepFace library with the ArcFace model for highly accurate, state-of-the-art facial embedding generation and matching.
 
@@ -32,7 +32,7 @@ Attendance Interval Restriction: Prevents duplicate attendance logging by enforc
 
 Interactive Menu: Features a command-line/video overlay menu for switching between attendance sections (a, b, c) and initiating new user registration (n).
 
-🛠️ Technology Stack
+## Technology Stack
 Language: Python
 
 Computer Vision: opencv-python, mediapipe
@@ -47,7 +47,7 @@ Cloud Integration: gspread, oauth2client (for Google Sheets API)
 
 Utilities: numpy, scipy, pickle
 
-🚀 Installation and Setup
+## Installation and Setup
 Prerequisites
 Python 3.x
 
@@ -90,7 +90,7 @@ Run the application:
 
 python notebook.ipynb # or main_script.py if you convert the notebook
 
-##💡 How to Use
+## How to Use
 The application starts in a main menu mode displayed on the webcam feed.
 
 Register a New User: Press n and follow the prompts to enter a name and section. The system will guide you through capturing 20 unique face images to build your profile.
